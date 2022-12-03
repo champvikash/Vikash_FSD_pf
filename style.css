@@ -6,3 +6,13 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 
 }
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600;
+    margin: auto;
+}
