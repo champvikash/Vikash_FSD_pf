@@ -1,15 +1,8 @@
-body {
-color: chartreuse;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap'); 
 
-h1 {
-    color: blue;
-}
+body{
+    font-family: 'Kanit', sans-serif;
 
-h2 {
-    color: aqua;
-}
+    font-family: 'Roboto Condensed', sans-serif;
 
-h3 {
-    color: red;
 }
