@@ -7,12 +7,46 @@ body{
 
 }
 
+:root{
+    --primary-color: #7c3aed;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    color: red;
 }
 
-.container-center{
-    max-width: 600;
+.container-second{
+    padding-left: 12rem;    
     margin: auto;
+    color: blue;
 }
+
+/* links */
+.primary-link{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+ .primary-link{
+    background-color:var(--primary-color);
+    color: white;
+    border-radius: 0.8rem;
+ }
+
+ .secondry-link{
+    background-color:var(--primary-color);
+    color: white;
+    border-radius: 0.8rem;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 0.5rem;
+ }
+
+
+
+
