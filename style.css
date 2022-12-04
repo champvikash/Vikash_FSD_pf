@@ -47,6 +47,45 @@ hr{
     padding: 0.5rem;
  }
 
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+}
 
 
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
+    text-decoration: none;
+}
 
+
+/* navigation */
+.navbar {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.navigation {
+background-color: var(--primary-color);
+text-align: right;
+padding: 1rem;
+border-bottom-right-radius: 1rem;
+border-bottom-left-radius: 1rem;
+
+}
+
+
+.navigation.link {
+    color: aliceblue;
+}
+
+
+/* header */
+
+
+ .hero {
+    padding: 2rem;
+ }
