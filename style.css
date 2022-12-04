@@ -72,6 +72,9 @@ hr{
 background-color: var(--primary-color);
 text-align: right;
 padding: 1rem;
+border-bottom-right-radius: 1rem;
+border-bottom-left-radius: 1rem;
+border- ;
 }
 
 
@@ -80,13 +83,9 @@ padding: 1rem;
 }
 
 
+/* header */
 
 
-
-
-
-
-
-
-
- 
+ .hero {
+    padding: 2rem;
+ }
