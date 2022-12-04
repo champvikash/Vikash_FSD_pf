@@ -88,4 +88,22 @@ border-bottom-left-radius: 1rem;
 
  .hero {
     padding: 2rem;
+    
+ }
+
+ .hero.hero.img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+ }
+
+ .hero .hero-heading {
+    color: gray;
+    padding-left: 1rem;
+ }
+
+
+ .hero .hero-heading .spancol{
+    color: #7c3aed;
  }
