@@ -69,6 +69,10 @@ hr{
     font-size: 1.1rem;
 }
 
+.navbar1 {
+    text-align: left;
+    font-weight: bold;    
+}
 
 .navigation {
 background-color: var(--primary-color);
@@ -138,10 +142,7 @@ border-bottom-left-radius: 1rem;
 
 
 
-.navbar1 {
-    text-align: left;
-    font-weight: bold;    
-}
+
 
 
 
