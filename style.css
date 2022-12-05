@@ -9,6 +9,7 @@ body{
 
 :root{
     --primary-color: #7c3aed;
+    --secondry-color: #0f172a;
 }
 
 hr{
@@ -58,6 +59,7 @@ hr{
     display: inline;
     padding: 0 0.5rem;
     text-decoration: none;
+    color: aliceblue;
 }
 
 
@@ -78,8 +80,10 @@ border-bottom-left-radius: 1rem;
 }
 
 
-.navigation.link {
+.navigation .link {
     color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -107,3 +111,31 @@ border-bottom-left-radius: 1rem;
  .hero .hero-heading .spancol{
     color: #7c3aed;
  }
+
+ /* section */
+
+.section {
+    padding: 2rem;
+}
+
+.section h3{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--secondry-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
