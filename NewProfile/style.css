@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap'); 
+
+body{
+    font-family: 'Kanit', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+:root{
+    --primary-color: #7c3aed;
+    --secondry-color: #0f172a;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: red;
+    
+}
+
+.container-second{
+    padding-left: 12rem;    
+    margin: auto;
+    color: blue;
+}
+
+.container1 {
+    background-color:rgb(167 243 208);
+    height: 60vh;
+    width: 100%;
+}
+
+
+
+/* links */
+.primary-link{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+ .primary-link{
+    background-color:var(--primary-color);
+    color: white;
+    border-radius: 0.8rem;
+ }
+
+ .secondry-link{
+    background-color:var(--primary-color);
+    color: white;
+    border-radius: 0.8rem;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 0.5rem;
+ }
+
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+    color: aliceblue;
+}
+
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.9rem;
+    text-decoration: none;
+    color: rgb(239, 241, 244);
+    list-style: none;
+}
+
+
+/* navigation */
+.navbar {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navbar1 {
+    text-align: left;
+    font-weight: bold;    
+}
+
+.navigation {
+background-color: var(--primary-color);
+text-align: right;
+padding: 1rem;
+border-bottom-right-radius: 1rem;
+border-bottom-left-radius: 1rem;
+
+}
+
+
+.navigation .link {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* header */
+
+
+ .hero {
+    padding: 2rem;
+     margin: auto;
+  width: 70%;
+  border: 3px solid green;
+  padding: 10px;
+    
+ }
+
+ .hero.hero.img {
+    max-width: px;
+    border-radius: 40rem;
+    margin: auto;
+    
+    
+ }
+
+ .hero .hero-heading {
+    color: gray;
+    padding-left: 1rem;
+ }
+
+
+ .hero .hero-heading .spancol{
+    color: #7c3aed;
+ }
+
+ /* section */
+
+.section {
+    padding: 2rem;
+}
+
+.section h3{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--secondry-color);
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
